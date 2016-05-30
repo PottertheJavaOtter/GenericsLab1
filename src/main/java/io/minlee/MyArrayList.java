@@ -88,7 +88,6 @@ public class MyArrayList<T> {
         return false;
     }
 
-
     private void resize(int index) {
         if(myArray.length < index){
             myArray = Arrays.copyOf(myArray,index*2);
