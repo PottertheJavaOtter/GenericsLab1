@@ -7,15 +7,13 @@ import java.util.*;
 /**
  * Created by minlee on 5/30/16.
  */
-public class MySet<T> {
+public class MySet<T>{
 
 
     private T[] myArray;
-    private int mySetSize;
 
     public MySet(){
         myArray = (T[])new Object[0];
-        mySetSize = 0;
     }
 
     public boolean add(T tObj){

@@ -1,11 +1,12 @@
 package io.minlee;
 
-import java.util.Arrays;
+import java.io.Serializable;
+import java.util.*;
 
 /**
  * Created by minlee on 5/26/16.
  */
-public class MyArrayList<T> {
+public class MyArrayList<T>{
 
     private T[] myArray;
     private int myArrayListSize;
@@ -93,6 +94,7 @@ public class MyArrayList<T> {
             myArray = Arrays.copyOf(myArray,index*2);
         }
     }
+
 
 }
 
